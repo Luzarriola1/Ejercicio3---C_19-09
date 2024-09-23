@@ -1,0 +1,81 @@
+.boton{
+
+height: 60px;
+width: 180px;
+background-color: rgb(156, 171, 236);
+text-align: center;
+font-size: larger;
+border-radius: 12px; /* Esquinas redondeadas */
+
+box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5); /* Cambiar sombra al hacer hover */
+margin-left: 2px; /* Mover a la derecha */
+position: relative;
+top: 1px;   /* Mover hacia abajo */
+}
+
+.boton:hover{
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.808); /* Cambiar sombra al hacer hover */
+}
+
+
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+body {
+    background-color: #f2e4e4; /* Color de fondo más suave */
+  }
+
+
+
+#container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+
+}
+
+.caja {
+    border: 3px solid blue;
+    /* Color del borde */
+    background-color: #e4d05d;
+    /* Color de fondo*/
+    border-radius: 30px;
+    /* Bordes redondeados */
+    width: calc(30% - 60px);
+    /* Ajusta el ancho de cada tarjeta */
+    padding: 20px;
+    text-align:left;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    font-family: Arial, sans-serif;
+    /* Tipografía */
+
+}
+
+
+.caja p {
+    margin: 35px 0;
+    font-size: 15px;
+  }
+  
+  .caja a {
+    color: blue; /* Color del enlace */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .caja p {
+    margin: 35px 0;
+    font-size: 15px;
+}
+
+.caja p:first-of-type {
+    font-weight: bold; /* Negrita para el primer párrafo (Nombre) */
+    text-align: center; /* Centrar el texto */
+    font-size: 18px; /* Tamaño de fuente más grande opcional */
+}
